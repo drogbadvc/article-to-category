@@ -26,7 +26,7 @@ cd article-to-category
 pip install -r requirements.txt
 
 # Start the FastAPI server
-uvicorn main:app --reload
+uvicorn api_category:app --reload
 
 # In another terminal, start the Streamlit user interface
 streamlit run streamlit_app.py
